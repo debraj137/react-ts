@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import { useEffect, useRef } from 'react'
 // import { useState } from 'react'
-import { Button, Typography } from '@mui/material';
+import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
 import './App.css'
 // import List from './List';
 // import Child from './Child'
@@ -26,8 +26,18 @@ function App() {
       <input type="text" value={email} onChange={handleChange} placeholder='enter your email' />
 
       <List items={[1, 2, 3, 4, 5]} render={(item) => <p key={item}>{item}</p>} /> */}
-      <Typography variant='h4'>Welcome</Typography>
-      <Button>Click Me</Button>
+      {/* <Typography variant='h4'>Welcome</Typography>
+      <Button>Click Me</Button> */}
+      <Box sx={{padding:4}}>
+        <Grid container spacing={2}>
+          <Grid size={6}>
+            <Paper sx={{padding:2}}>Left</Paper>
+          </Grid>
+          <Grid size={6}>
+            <Paper sx={{padding:2}}>Right</Paper>
+          </Grid>
+        </Grid>
+      </Box>
     </>
   )
 }
