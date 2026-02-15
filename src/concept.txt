@@ -52,3 +52,35 @@ styling
 consistency
 
 ///////////////////////////////////////////////////////////////////////////////////
+🧩 LESSON 8: Design Consistency (Professional Thinking)
+-------------------------------------------------------------------------
+Design consistency means:
+-------------------------------------
+✔ Same spacing everywhere
+✔ Same button styles
+✔ Same border radius
+✔ Same font scale
+
+Good Practice
+------------------------------------------
+Don’t hardcode random colors
+Use theme values
+Create reusable UI components
+Centralize design tokens
+
+🧠 MUI vs Custom CSS vs Tailwind
+Situation	Use
+Enterprise app	MUI
+Design system heavy	MUI
+Utility-first styling	Tailwind
+Full custom design	CSS + design system
+
+📌 Interview line:
+-------------------------------------------------------------------------
+“I choose UI libraries based on project needs and scalability.”
+
+🎯 INTERVIEW-READY SUMMARY
+--------------------------------------------------------------------------------------------
+“I use MUI for building scalable and accessible UI components. I customize components using the sx prop or styled API, centralize design using ThemeProvider, and ensure design consistency through a structured theme.”
+
+///////////////////////////////////////////////////////////////////////////////////
