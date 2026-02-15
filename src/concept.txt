@@ -1,0 +1,18 @@
+🧠 LESSON 1: What is Material UI (MUI)?
+---------------------------------------------------
+Material UI (MUI) is:
+A React component library
+Based on Google’s Material Design
+Production-ready
+Highly customizable
+
+Instead of writing:
+<button className="btn-primary">Submit</button>
+
+You use:
+<Button variant="contained">Submit</Button>
+
+
+Much cleaner.
+
+//////////////////////////////////////////////////////////////////////////
