@@ -3,13 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { ThemeProvider } from '@mui/material'
-import { theme } from './theme.ts'
+import { darkTheme } from './theme.ts'
+// import { theme } from './theme.ts'
 
 createRoot(document.getElementById('root')!).render(
   // <StrictMode>
   //   <App />
   // </StrictMode>,
-  <ThemeProvider theme={theme}>
-    <App/>
+  // <ThemeProvider theme={theme}>
+  //   <App/>
+  // </ThemeProvider>
+  <ThemeProvider theme={darkTheme}>
+    <App />
   </ThemeProvider>
 )
