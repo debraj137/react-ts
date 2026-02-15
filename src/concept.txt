@@ -16,3 +16,39 @@ You use:
 Much cleaner.
 
 //////////////////////////////////////////////////////////////////////////
+🧩 LESSON 3: Basic MUI Components
+---------------------------------------------
+🧪 Practice 1: Basic Button & Typography
+📄 File: src/App.tsx
+----------------------------------------------------------
+import { Button, Typography } from "@mui/material";
+
+function App() {
+  return (
+    <>
+      <Typography variant="h4">
+        Welcome
+      </Typography>
+
+      <Button variant="contained" color="primary">
+        Click Me
+      </Button>
+    </>
+  );
+}
+
+export default App;
+
+Variants:
+------------------
+contained
+outlined
+text
+
+🧠 MUI components already include:
+---------------------------------------------
+accessibility
+styling
+consistency
+
+///////////////////////////////////////////////////////////////////////////////////
