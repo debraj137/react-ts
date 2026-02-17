@@ -83,4 +83,26 @@ Full custom design	CSS + design system
 --------------------------------------------------------------------------------------------
 “I use MUI for building scalable and accessible UI components. I customize components using the sx prop or styled API, centralize design using ThemeProvider, and ensure design consistency through a structured theme.”
 
-///////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+🧠 LESSON 1: Authentication Basics (Very Important)
+-----------------------------------------------------------
+What is Authentication?
+---------------------------------
+Authentication = Who are you?
+Examples: Email + Password, Google login, OTP, JWT token
+
+Authentication vs Authorization
+----------------------------------------
+Term	Meaning
+Authentication	Verify identity
+Authorization	Verify permissions
+
+Example:
+Login success → authentication
+Access admin page → authorization
+
+📌 Interview line:
+-------------------------------------------------------------------------------
+“Authentication verifies identity, authorization verifies access rights.”
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
