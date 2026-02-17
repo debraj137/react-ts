@@ -106,3 +106,25 @@ Access admin page → authorization
 “Authentication verifies identity, authorization verifies access rights.”
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+🧩 LESSON 2: Authentication Flow (Modern Web Apps)
+------------------------------------------------------
+Most apps follow this:
+1> User submits login form
+2> Backend verifies credentials
+3> Backend returns token (JWT)
+4> Frontend stores token
+5> Token sent in future API calls
+
+Where to store token?
+-------------------------------
+Options:
+Storage	Good?
+localStorage	Easy but less secure
+sessionStorage	Temporary
+HTTP-only cookie	Most secure
+
+🧠 Best practice:
+-----------------------------------------------
+Use HTTP-only cookies when possible.
+
+/////////////////////////////////////////////////////////////////////////////
