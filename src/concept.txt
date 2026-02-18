@@ -206,3 +206,31 @@ Must start with VITE_
 Never commit secrets
 
 /////////////////////////////////////////////////////////////////////////////
+🧩 LESSON 8: Security Basics (VERY IMPORTANT)
+--------------------------------------------------------
+Frontend security basics:
+✔ Don’t store sensitive secrets in code
+✔ Use HTTPS
+✔ Use HTTP-only cookies for tokens
+✔ Validate on backend
+✔ Sanitize user input
+✔ Avoid exposing internal APIs
+
+Common Security Mistakes
+❌ Storing passwords in localStorage
+❌ Trusting frontend role checks
+❌ Exposing private API keys
+
+🧠 Real-World Auth Architecture (Professional Thinking)
+--------------------------------------------------------------------
+Production apps often use:
+
+Frontend: React, React Query, Protected routes
+
+Backend: JWT, Role validation, Refresh tokens, Secure cookies
+
+🎯 INTERVIEW-READY SUMMARY
+--------------------------------------------------------
+“I implement authentication using token-based systems or Firebase Auth. I protect routes by checking authentication state, enforce authorization based on roles, manage sensitive configuration via environment variables, and follow security best practices such as not exposing secrets and validating on the backend.”
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
