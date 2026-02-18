@@ -1,9 +1,11 @@
 // import { useState } from 'react'
 // import { useEffect, useRef } from 'react'
 // import { useState } from 'react'
-import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
+// import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
 import './App.css'
-import styled from '@emotion/styled';
+import Login from './Login'
+import Signup from './Signup'
+// import styled from '@emotion/styled';
 // import List from './List';
 // import Child from './Child'
 
@@ -20,10 +22,10 @@ function App() {
   //   setEmail(e.target.value)
   // }
 
-  const MyButton = styled(Button)({
-    backgroundColor: "#222",
-    color: "white",
-  })
+  // const MyButton = styled(Button)({
+  //   backgroundColor: "#222",
+  //   color: "white",
+  // })
   return (
     <>
       {/* <Child name='debraj' age={30} />
@@ -44,7 +46,9 @@ function App() {
           </Grid>
         </Grid>
       </Box> */}
-      <MyButton>Styled Button</MyButton>
+      {/* <MyButton>Styled Button</MyButton> */}
+      <Signup/>
+      <Login/>
     </>
   )
 }
