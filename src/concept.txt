@@ -166,3 +166,23 @@ Use it in routes
 “I implement protected routes by conditionally rendering based on authentication state.”
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+🧩 LESSON 6: Authorization (Role-Based Access)
+------------------------------------------------------
+Authentication = user exists
+Authorization = user role check
+
+Example role check
+if (user.role !== "admin") {
+  return <p>Access denied</p>;
+}
+
+
+In real apps:
+---------------------------------------
+Store roles in backend, Validate on server
+
+🧠 Important:
+--------------------------------------------------------
+Never trust frontend-only role checks.
+
+//////////////////////////////////////////////////////////////////////////////////////
