@@ -186,3 +186,23 @@ Store roles in backend, Validate on server
 Never trust frontend-only role checks.
 
 //////////////////////////////////////////////////////////////////////////////////////
+🧩 LESSON 7: Environment Variables (Production Skill)
+-----------------------------------------------------------------
+Sensitive data: API keys, Firebase config, Backend URL
+
+Vite environment variables
+Create:
+📄 .env
+VITE_FIREBASE_API_KEY=your_key
+VITE_FIREBASE_AUTH_DOMAIN=your_domain
+
+
+Access like: import.meta.env.VITE_FIREBASE_API_KEY
+
+
+🧠 Rule:
+--------------------------------------------
+Must start with VITE_
+Never commit secrets
+
+/////////////////////////////////////////////////////////////////////////////
