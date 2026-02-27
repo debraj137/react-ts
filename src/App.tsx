@@ -3,6 +3,8 @@
 // import { useState } from 'react'
 // import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
 import './App.css'
+import AddTodo from './features/todo/AddTodo'
+import TodoList from './features/todo/TodoList'
 import Login from './Login'
 import Signup from './Signup'
 // import styled from '@emotion/styled';
@@ -47,8 +49,11 @@ function App() {
         </Grid>
       </Box> */}
       {/* <MyButton>Styled Button</MyButton> */}
-      <Signup/>
-      <Login/>
+      {/* <Signup/>
+      <Login/> */}
+      <h1>Todo App</h1>
+      <AddTodo />
+      <TodoList />
     </>
   )
 }
